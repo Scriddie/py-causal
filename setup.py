@@ -51,7 +51,7 @@ setup(
         'pycausal': ['lib/*.jar'],
     },
     install_requires = [
-        'javabridge>=1.0.11',
+        'python-javabridge',
         'numpy',
         'pandas',
         'pyparsing']

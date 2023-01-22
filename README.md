@@ -1,3 +1,27 @@
+# 'py-causal' optimized for easy install
+
+### Are you having trouble installing py-causal? Fret no more!!!
+
+This version replaces the dependency on *javabridge* with the more easily installable *python-javabridge*. Now you can simply download some new-ish java *jre* and *jdk*, clone the repository, and install. On arch linux, that could look like the this (on other OS or distros, you will have to adapt package manager and package name):
+
+```
+# install java development kit (jdk) and java runtime environment (jre)
+sudo pacman -S jdk-openjdk
+sudo pacman -S jre-openjdk
+
+# clone this repo
+git clone https://github.com/Scriddie/py-causal
+# install
+python py-causal/setup.py install
+```
+
+You can test the installation by trying `import pycausal` in python.
+
+---
+---
+---
+
+
 py-causal
 ========
 Python APIs for causal modeling algorithms developed by the University of Pittsburgh/Carnegie Mellon University [Center for Causal Discovery](http://www.ccd.pitt.edu). 
