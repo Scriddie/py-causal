@@ -12,7 +12,8 @@ sudo pacman -S jre-openjdk
 # clone this repo
 git clone https://github.com/Scriddie/py-causal
 # install
-python py-causal/setup.py install
+cd py-causal
+python setup.py install
 ```
 
 You can test the installation by trying `import pycausal` in python.
